@@ -1,5 +1,5 @@
 html, body {
-  width: 100px;
+  width: 400px;
 }
 
 .hidden {
@@ -7,18 +7,18 @@ html, body {
 }
 
 .button {
-  margin: 3% auto;
-  padding: 4px;
+  margin: 2% auto;
+  padding: 2px;
   text-align: center;
-  font-size: 1.5em;
+  font-size: 0.7em;
   cursor: pointer;
 }
 
-.beast:hover {
+.new-category:hover {
   background-color: #CFF2F2;
 }
 
-.beast {
+.new-category {
   background-color: #E5F2F2;
 }
 
@@ -29,3 +29,12 @@ html, body {
 .reset:hover {
   background-color: #EAEA9D;
 }
+
+
+.color-button
+{ 
+  width: 15px;
+  height: 15px;
+  border: none;
+}
+

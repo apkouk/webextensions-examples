@@ -1,0 +1,33 @@
+{
+
+  "description": "Adds a browser action icon to the toolbar. Click the button to choose an action for the tab manager",
+  "manifest_version": 2,
+  "name": "Tabbyme",
+  "version": "1.0",
+  "homepage_url": "https://github.com/mdn/webextensions-examples/tree/master/add-category",
+  "icons": {
+    "48": "icons/beasts-48.png"
+  },
+
+  "permissions": [
+    "tabs", "notifications", "contextMenus", "webRequest", "<all_urls>"
+  ],
+
+
+
+  "browser_action": {
+    "default_icon": "icons/beasts-32.png",
+    "theme_icons": [{
+        "light": "icons/beasts-32-light.png",
+        "dark": "icons/beasts-32.png",
+        "size": 32
+    }],
+    "default_title": "Tabbyme",
+    "default_popup": "tab-manager-popup/tab-manager.html"
+  },
+
+  "web_accessible_resources": [
+    "beasts/*.jpg"
+  ]
+
+}

@@ -40,7 +40,7 @@
             "tabs.sendMessage",
             "tabs.Tab"
         ],
-        "name": "beastify"
+        "name": "add-category"
     },
     {
         "description": "Adds a bookmark button to the toolbar. Click the button to toggle a bookmark for the current page.",
